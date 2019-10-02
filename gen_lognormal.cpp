@@ -14,7 +14,7 @@ int main()
 {
   double scale = 1e+9;
   double max = double(INT_MAX) / scale;
-  int nelements = 190000000;
+  size_t nelements = 1900000;
 
   std::mt19937 rng;
   rng.seed(std::random_device()());
